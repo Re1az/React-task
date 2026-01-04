@@ -31,7 +31,7 @@ export default function Features() {
           This app is just so lorem ipsum.
         </p>
       </div>
-      <div className="hidden max-[1480px]:grid grid-cols-3 p-5 place-items-center justify-items-center max-sm:grid-cols-3 max-sm:gap-20">
+      <div className="hidden max-[700px]:grid grid-cols-3 p-5 place-items-center justify-items-center max-sm:grid-cols-3 max-sm:gap-20">
         <div className="text-white place-items-center ">
           <FaBoltLightning size={40} color="orange" />
           <p className="text-center mt-3 font-medium">Fast</p>
@@ -83,7 +83,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="max-sm:hidden grid grid-cols-4 p-10 place-items-center gap-35 max-sm:grid-cols-3 max-sm:gap-20">
+      <div className="max-sm:hidden max-[700px]:hidden grid grid-cols-4 p-10 place-items-center gap-35 max-sm:grid-cols-3 max-sm:gap-20">
         <div className="text-white">
           <FaBoltLightning size={70} color="orange" />
           <p className="text-center mt-3 font-medium">Fast</p>

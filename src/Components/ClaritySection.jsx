@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ClaritySection() {
   return (
-    <section className="bg-[#F1F1F1] py-15 px-5 flex justify-between gap-10 ">
+    <section className="bg-[#F1F1F1] py-15 px-5 flex justify-between gap-5 max-sm:p-5 ">
       <div>
         <img
           className="max-w-100  rounded-xl grayscale-80 max-sm:hidden max-[745px]:hidden"
@@ -10,7 +10,7 @@ export default function ClaritySection() {
           alt="mobile camera-ready to capture"
         />
       </div>
-      <div className="max-w-240  flex flex-col gap-10 justify-baseline text-left">
+      <div className="max-w-240  flex flex-col gap-5 justify-baseline text-left">
         <div className="flex flex-col gap-5">
           <h1 className="text-7xl font-bold">Clarity</h1>
           <h2 className="text-5xl font-bold text-[#F44336]">Pixels, who?</h2>

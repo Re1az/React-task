@@ -12,7 +12,7 @@ export default function Backgroundimage() {
         </button>
       </div>
       <div className="bg-[url('https://www.w3schools.com/w3images/app.jpg')] h-250 bg-cover bg-no-repeat bg-center flex justify-between p-5 items-center text-white  max-sm:h-100 max-sm:relative ">
-        <div className="container max-w-125 flex flex-col justify-center text-center gap-5 rounded-[8px] bg-black/60 px-10 py-6 hover:bg-black hover:text-white max-sm:hidden max-md:hidden max-[1480px]:hidden ">
+        <div className="container max-w-125 flex flex-col justify-center text-center gap-5 rounded-lg bg-black/60 px-10 py-6 hover:bg-black hover:text-white max-sm:hidden max-md:hidden max-[1480px]:hidden ">
           <h1 className="text-3xl text-white/70">Take photos with our app</h1>
           <hr />
           <p className="text-[18px] text-white/70">
